@@ -7,13 +7,42 @@
     <title>Aljobra, Aberturas de aluminio</title>
 </head>
 <body>
-    <header class="titulo">
-        <h1>Aljobra</h1>
-        <h2>Aberturas de aluminio</h2>
+    <header class="header">
+        <div class="nombre">
+            <h1 class="titulo">Aljobra</h1>
+            <h2 class="subtitulo">Aberturas de aluminio</h2>
+        </div>
+        <nav class="menu-navegacion">
+            <a href="">Inicio</a>
+            <a href="">Productos</a>
+            <a href="">Obras realizadas</a>
+            <a href="">Contacto</a>
+        </nav>
     </header>
-    <section class="contenedor">
+    <div class="slider-container">
+        <div class="slider">
+          <img src="img/carrusel/1.jpg" alt="Imagen 1">
+          <img src="img/carrusel/2.jpg" alt="Imagen 2">
+          <!-- Agrega más imágenes según necesites -->
+        </div>
+        <button class="prev" onclick="prevSlide()">Anterior</button>
+        <button class="next" onclick="nextSlide()">Siguiente</button>
+    </div>
+    <div class="presentacion">
+        <h1 class="presentacion-h1">BIENVENIDOS A ALJOBRA ABERTURAS</h1>
+        <p class="presentacion-h2">Somos una empresa dedicada a la fabricación e instalación de aberturas de aluminio, con más de 5 años de experiencia en el rubro. </p>
+        <p class="presentacion-h2">A lo largo de estos años hemos consolidado un crecimiento constante, esto nos ha permitido ampliar nuestra cartera de productos, para estar presentes en todas las etapa de la obra.</p>
+        <p class="presentacion-h2">Una organización con experiencia, seriedad, variedad de productos y destacable asesoramiento, permite que el cliente haga la mejor elección adaptada a sus gustos y necesidades.</p>
+    </div>
+    <h1 class="contenedor-titulo">NUESTROS PRODUCTOS</h1>
+    <div class="contenedor">
+        <a href="">Aberturas</a>
         <a href="mamparaVidrio.html">Mamparas de vidrio</a>
         <a href="mamparaPolicarbonato.html">Mamparas de policarbonato</a>    
-    </section>
+    </div>
+    <div class="contacto">
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
